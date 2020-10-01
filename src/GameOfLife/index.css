@@ -1,0 +1,27 @@
+.game {
+  display: flex;
+  flex-direction: column;
+}
+
+.game-title {
+  flex: 1;
+  text-align: center;
+  margin: auto;
+  padding: 1em;
+}
+
+.game-board {
+  flex: 1;
+  margin: auto;
+  padding: 1em;
+}
+
+.board-row {
+  display: flex;
+}
+
+.board-cell {
+  padding: 8px;
+  line-height: 0;
+  border: .1em solid black;
+}
